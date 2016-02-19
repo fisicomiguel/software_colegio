@@ -39,7 +39,7 @@ public class Panel implements ActionListener{//implementando el listener de even
         jfM.add(jbP1); jfM.add(jbP2); jfM.add(jbP3); // apregra los botones a los paneles
         
         jbP1.addActionListener(this); jbP2.addActionListener(this); jbP3.addActionListener(this);
- //////////////////////////////
+ ////////////////////////////
         
     	Vector columnas = new Vector();
     	columnas.add("Alumno");
@@ -92,7 +92,7 @@ public class Panel implements ActionListener{//implementando el listener de even
         jp2 = new JPanel(new BorderLayout(2, 3));//espacio entre las regiones, horizontal y vertical
  
         jb1= new JButton("B1"); jb2= new JButton("B2"); jb3= new JButton("B3");//añadiendo objetos al jpanel
- 
+ 
         jp2.add(jb1, BorderLayout.NORTH);//boton al panel norte
         jp2.add(jb2, BorderLayout.WEST); //boton a la region oeste
         jp2.add(jb3, BorderLayout.CENTER); //boton a la region centro    
@@ -117,7 +117,7 @@ public class Panel implements ActionListener{//implementando el listener de even
     	    }
 
 
-	public static void main(String[] args) {        
+	public static void main(String[] args) {        
     	Panel gj = new Panel();//uso de constructor para la ventana
  
     }
